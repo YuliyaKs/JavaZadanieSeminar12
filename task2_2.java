@@ -66,7 +66,7 @@ public class task2_2 {
                 }
             }
         String[] allData = builder.toString().split(",");
-        String[] titles = {"������� ", " ������� ", " �� �������� "};
+        String[] titles = {"Студент ", " получил ", " по предмету "};
         StringBuilder result = new StringBuilder("");
         for (int i =0; i < allData.length; i++) {
             String[] needData = allData[i].split(":");
